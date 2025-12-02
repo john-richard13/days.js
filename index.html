@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivinhe o Dia da Semana</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #4b79a1, #283e51);
+            color: white;
+            text-align: center;
+            padding: 40px;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            margin-bottom: 20px;
+        }
+
+        button {
+            padding: 12px 22px;
+            font-size: 1rem;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: 20px;
+            background-color: #00d4ff;
+            color: #000;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background-color: #00aacc;
+        }
+
+        p {
+            font-size: 1.1rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Qual dia da semana é hoje?</h1>
+    <p>Clique no botão abaixo para começar o desafio!</p>
+
+    <button onclick="iniciarJogo()">Iniciar Jogo</button>
+
+    <script src="days.js"></script>
+</body>
+</html>
